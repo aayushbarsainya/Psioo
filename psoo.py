@@ -3,11 +3,11 @@ from telethon import TelegramClient, events
 import random
 from telethon.errors import MessageIdInvalidError
 
-api_id = 22217626
-api_hash = 'bfe14a2a0e0444f762db88231a463508'
+api_id = 
+api_hash = ''
 
 async def main():
-    client = TelegramClient('Aayu2809', 22217626, 'bfe14a2a0e0444f762db88231a463508')
+    client = TelegramClient(', , ')
 
     @client.on(events.MessageEdited(from_users=6149996968))
     async def handle_message_edited(event):
